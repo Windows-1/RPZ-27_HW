@@ -6,7 +6,7 @@ numbers = []
 n = 0
 
 for i in range(4):
-    numbers.append(input('Введань число:'))
+    numbers.append(input('Введінь число:'))
 
 if numbers[1]==numbers[2]==numbers[3]:
     n = 1
