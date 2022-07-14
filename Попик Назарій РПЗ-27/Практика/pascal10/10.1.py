@@ -3,9 +3,9 @@
 
 
 string = input('Введіть текст:')
-numbers = []
+numbers = ('')
 
 for i in string:
     if i.isdigit():
-        numbers.append(i)
+        numbers = numbers + i
 print(numbers)
